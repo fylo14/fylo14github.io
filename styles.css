@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/fotos-premium/sala-estudio-espacio-vacio-fondo-degradado-coral-rosa-abstracto-sitio-web-anuncios-productos-visualizacion_94607-292.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #ff69b4; /* Rosa */
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.jumbotron {
+    background-color: #ffd7eb; /* Rosa */
+    color: #554949;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #e9e2e2;
+}
+p {
+    color: #6d6767;
+}
+.car-img {
+    max-width: 100%;
+    height: auto;
+}

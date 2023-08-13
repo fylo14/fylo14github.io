@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Empresa de Automóviles</title>
+    <script src="mostrar.js"></script>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos CSS personalizados -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-color-degradado-blanco-gris-banner-sitio-web-decoracion-tarjetas-papel_120819-265.jpg);
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #61367c;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #f3ecf3;
+        }
+        .jumbotron {
+            background-image: url('https://img.freepik.com/vector-premium/fondo-textura-acuarela-salpicada-abstracta_187069-11331.jpg?w=2000');
+            background-size: cover;
+            color: #e989e9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #69296b;
+        }
+        .car-img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">AGENCIA AUTOMOC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modelos.html">Modelos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="coontacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>Bienvenidos a AUTOMOC</h1>
+        <p>Tu destino para automóviles de calidad y estilo.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imágenes/ford mustang.jpg" alt="Automóvil 1" class="car-img">
+                <h2>Ford Mustang</h2>
+                <p>Descubre el clásico Ford Mustang, un ícono de la velocidad y el estilo.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imágenes/chevrolet camaro.jpg" alt="Automóvil 2" class="car-img">
+                <h2>Chevrolet Camaro</h2>
+                <p>El Chevrolet Camaro, un poderoso muscle car que te dejará sin aliento.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imágenes/porsche91.jpg" alt="Automóvil 3" class="car-img">
+                <h2>Porsche 911</h2>
+                <p>El Porsche 911, un ejemplo de ingeniería y elegancia alemana.</p>
+            </div>
+            <!-- Agrega aquí el párrafo donde se mostrará la historia -->
+    <p id="historia"></p>
+            <button onclick="mostrarHistoria()">¿Curiosidad?</button>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
